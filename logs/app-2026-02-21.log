@@ -23,3 +23,14 @@
 {"level":"warn","message":"Client error Route not found: GET /","method":"GET","path":"/","service":"digital-girvi","status":404,"timestamp":"2026-02-21 20:47:54.319","userId":null}
 {"level":"warn","message":"Client error Route not found: GET /","method":"GET","path":"/","service":"digital-girvi","status":404,"timestamp":"2026-02-21 20:48:09.584","userId":null}
 {"level":"info","message":"SIGINT received — shutting down gracefully...","service":"digital-girvi","timestamp":"2026-02-21 20:52:30.684"}
+{"level":"info","message":"Checking database connectivity...","service":"digital-girvi","timestamp":"2026-02-21 20:53:44.846"}
+{"level":"info","message":"Database connection verified ✅","service":"digital-girvi","timestamp":"2026-02-21 20:53:44.867"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 20:53:44.868"}
+{"level":"info","message":"🏦  Digital Girvi server started","service":"digital-girvi","timestamp":"2026-02-21 20:53:44.869"}
+{"level":"info","message":"🌍  Environment : development","service":"digital-girvi","timestamp":"2026-02-21 20:53:44.869"}
+{"level":"info","message":"🚀  Listening on: http://localhost:3000","service":"digital-girvi","timestamp":"2026-02-21 20:53:44.869"}
+{"level":"info","message":"🩺  Health check: http://localhost:3000/health","service":"digital-girvi","timestamp":"2026-02-21 20:53:44.870"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 20:53:44.870"}
+{"level":"warn","message":"Client error Route not found: GET /","method":"GET","path":"/","service":"digital-girvi","status":404,"timestamp":"2026-02-21 20:53:52.124","userId":null}
+{"level":"warn","message":"Client error Route not found: GET /","method":"GET","path":"/","service":"digital-girvi","status":404,"timestamp":"2026-02-21 20:54:07.523","userId":null}
+{"level":"warn","message":"Client error Route not found: GET /","method":"GET","path":"/","service":"digital-girvi","status":404,"timestamp":"2026-02-21 20:54:12.473","userId":null}
