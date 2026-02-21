@@ -22,3 +22,4 @@
 {"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 20:47:48.790"}
 {"level":"warn","message":"Client error Route not found: GET /","method":"GET","path":"/","service":"digital-girvi","status":404,"timestamp":"2026-02-21 20:47:54.319","userId":null}
 {"level":"warn","message":"Client error Route not found: GET /","method":"GET","path":"/","service":"digital-girvi","status":404,"timestamp":"2026-02-21 20:48:09.584","userId":null}
+{"level":"info","message":"SIGINT received — shutting down gracefully...","service":"digital-girvi","timestamp":"2026-02-21 20:52:30.684"}
