@@ -8,7 +8,7 @@
  */
 
 const { Pool } = require('pg');
-const logger   = require('./utils/logger');
+const logger   = require('./logger');
 
 // ----------------------------------------------------------------
 // Pool configuration

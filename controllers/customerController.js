@@ -6,7 +6,7 @@
  * masked display values, pagination, and search.
  */
 
-const db         = require('../db');
+const db         = require('../utils/db');
 const encryption = require('../utils/encryption');
 const { log, ACTIONS, sanitise } = require('../auditLog');
 const { AppError, asyncHandler }  = require('../errorHandler');
