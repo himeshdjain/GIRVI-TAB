@@ -135,7 +135,7 @@ app.use('/uploads', express.static(path.resolve(uploadDir), {
 }));
 
 // Serve frontend static assets
-const publicDir = path.join(__dirname, 'public');
+const publicDir = path.join(__dirname, './');
 if (fs.existsSync(publicDir)) {
   app.use(express.static(publicDir, { maxAge: '1h', etag: true }));
 }
@@ -176,7 +176,7 @@ app.get('*', (req, res, next) => {
   if (req.path.startsWith('/api/') || req.path.startsWith('/uploads/')) {
     return next();
   }
-  const indexPath = path.join(__dirname, 'public', 'index.html');
+  const indexPath = path.join(__dirname, 'index.html');
   if (fs.existsSync(indexPath)) {
     return res.sendFile(indexPath);
   }

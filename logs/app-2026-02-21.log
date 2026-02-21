@@ -1,0 +1,65 @@
+{"level":"info","message":"Upload directory created: ./uploads","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.969"}
+{"level":"info","message":"Checking database connectivity...","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.973"}
+{"level":"info","message":"Database connection verified ✅","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.991"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.993"}
+{"level":"info","message":"🏦  Digital Girvi server started","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.993"}
+{"level":"info","message":"🌍  Environment : development","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.994"}
+{"level":"info","message":"🚀  Listening on: http://localhost:3000","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.994"}
+{"level":"info","message":"🩺  Health check: http://localhost:3000/health","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.995"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:27:46.995"}
+{"level":"warn","message":"Client error Route not found: GET /","method":"GET","path":"/","service":"digital-girvi","status":404,"timestamp":"2026-02-21 21:27:49.903","userId":null}
+{"level":"info","message":"SIGINT received — shutting down gracefully...","service":"digital-girvi","timestamp":"2026-02-21 21:31:45.688"}
+{"level":"info","message":"Checking database connectivity...","service":"digital-girvi","timestamp":"2026-02-21 21:34:49.357"}
+{"level":"info","message":"Database connection verified ✅","service":"digital-girvi","timestamp":"2026-02-21 21:34:49.378"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:34:49.380"}
+{"level":"info","message":"🏦  Digital Girvi server started","service":"digital-girvi","timestamp":"2026-02-21 21:34:49.381"}
+{"level":"info","message":"🌍  Environment : development","service":"digital-girvi","timestamp":"2026-02-21 21:34:49.381"}
+{"level":"info","message":"🚀  Listening on: http://localhost:3000","service":"digital-girvi","timestamp":"2026-02-21 21:34:49.381"}
+{"level":"info","message":"🩺  Health check: http://localhost:3000/health","service":"digital-girvi","timestamp":"2026-02-21 21:34:49.382"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:34:49.382"}
+{"error":"CORS: origin 'http://localhost:3000' is not allowed","level":"error","message":"Unhandled server error CORS: origin 'http://localhost:3000' is not allowed","method":"POST","path":"/api/auth/refresh","service":"digital-girvi","stack":"Error: CORS: origin 'http://localhost:3000' is not allowed\n    at origin (/workspaces/GIRVI-TAB/server.js:89:8)\n    at /workspaces/GIRVI-TAB/node_modules/cors/lib/index.js:219:13\n    at optionsCallback (/workspaces/GIRVI-TAB/node_modules/cors/lib/index.js:199:9)\n    at corsMiddleware (/workspaces/GIRVI-TAB/node_modules/cors/lib/index.js:204:7)\n    at Layer.handle [as handle_request] (/workspaces/GIRVI-TAB/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/workspaces/GIRVI-TAB/node_modules/express/lib/router/index.js:328:13)\n    at /workspaces/GIRVI-TAB/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/workspaces/GIRVI-TAB/node_modules/express/lib/router/index.js:346:12)\n    at next (/workspaces/GIRVI-TAB/node_modules/express/lib/router/index.js:280:10)\n    at internalNext (/workspaces/GIRVI-TAB/node_modules/helmet/index.cjs:537:6)","status":500,"timestamp":"2026-02-21 21:34:52.899","userId":null}
+{"error":"CORS: origin 'http://localhost:3000' is not allowed","level":"error","message":"Unhandled server error CORS: origin 'http://localhost:3000' is not allowed","method":"POST","path":"/api/auth/login","service":"digital-girvi","stack":"Error: CORS: origin 'http://localhost:3000' is not allowed\n    at origin (/workspaces/GIRVI-TAB/server.js:89:8)\n    at /workspaces/GIRVI-TAB/node_modules/cors/lib/index.js:219:13\n    at optionsCallback (/workspaces/GIRVI-TAB/node_modules/cors/lib/index.js:199:9)\n    at corsMiddleware (/workspaces/GIRVI-TAB/node_modules/cors/lib/index.js:204:7)\n    at Layer.handle [as handle_request] (/workspaces/GIRVI-TAB/node_modules/express/lib/router/layer.js:95:5)\n    at trim_prefix (/workspaces/GIRVI-TAB/node_modules/express/lib/router/index.js:328:13)\n    at /workspaces/GIRVI-TAB/node_modules/express/lib/router/index.js:286:9\n    at Function.process_params (/workspaces/GIRVI-TAB/node_modules/express/lib/router/index.js:346:12)\n    at next (/workspaces/GIRVI-TAB/node_modules/express/lib/router/index.js:280:10)\n    at internalNext (/workspaces/GIRVI-TAB/node_modules/helmet/index.cjs:537:6)","status":500,"timestamp":"2026-02-21 21:35:03.550","userId":null}
+{"level":"info","message":"SIGINT received — shutting down gracefully...","service":"digital-girvi","timestamp":"2026-02-21 21:37:11.195"}
+{"level":"info","message":"Checking database connectivity...","service":"digital-girvi","timestamp":"2026-02-21 21:37:24.507"}
+{"level":"info","message":"Database connection verified ✅","service":"digital-girvi","timestamp":"2026-02-21 21:37:24.528"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:37:24.530"}
+{"level":"info","message":"🏦  Digital Girvi server started","service":"digital-girvi","timestamp":"2026-02-21 21:37:24.530"}
+{"level":"info","message":"🌍  Environment : development","service":"digital-girvi","timestamp":"2026-02-21 21:37:24.530"}
+{"level":"info","message":"🚀  Listening on: http://localhost:3000","service":"digital-girvi","timestamp":"2026-02-21 21:37:24.531"}
+{"level":"info","message":"🩺  Health check: http://localhost:3000/health","service":"digital-girvi","timestamp":"2026-02-21 21:37:24.531"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:37:24.532"}
+{"level":"warn","message":"Client error No refresh token provided.","method":"POST","path":"/api/auth/refresh","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:37:28.933","userId":null}
+{"level":"warn","message":"Client error No refresh token provided.","method":"POST","path":"/api/auth/refresh","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:38:05.826","userId":null}
+{"level":"warn","message":"Client error Invalid username or password.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:38:20.567","userId":null}
+{"level":"info","message":"SIGINT received — shutting down gracefully...","service":"digital-girvi","timestamp":"2026-02-21 21:44:37.028"}
+{"level":"info","message":"Checking database connectivity...","service":"digital-girvi","timestamp":"2026-02-21 21:47:12.106"}
+{"level":"info","message":"Database connection verified ✅","service":"digital-girvi","timestamp":"2026-02-21 21:47:12.127"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:47:12.129"}
+{"level":"info","message":"🏦  Digital Girvi server started","service":"digital-girvi","timestamp":"2026-02-21 21:47:12.129"}
+{"level":"info","message":"🌍  Environment : development","service":"digital-girvi","timestamp":"2026-02-21 21:47:12.130"}
+{"level":"info","message":"🚀  Listening on: http://localhost:3000","service":"digital-girvi","timestamp":"2026-02-21 21:47:12.130"}
+{"level":"info","message":"🩺  Health check: http://localhost:3000/health","service":"digital-girvi","timestamp":"2026-02-21 21:47:12.130"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:47:12.131"}
+{"level":"warn","message":"Client error No refresh token provided.","method":"POST","path":"/api/auth/refresh","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:47:16.327","userId":null}
+{"level":"warn","message":"Client error Invalid username or password.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:47:27.064","userId":null}
+{"level":"info","message":"SIGINT received — shutting down gracefully...","service":"digital-girvi","timestamp":"2026-02-21 21:53:15.999"}
+{"level":"info","message":"Checking database connectivity...","service":"digital-girvi","timestamp":"2026-02-21 21:53:18.221"}
+{"level":"info","message":"Database connection verified ✅","service":"digital-girvi","timestamp":"2026-02-21 21:53:18.243"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:53:18.245"}
+{"level":"info","message":"🏦  Digital Girvi server started","service":"digital-girvi","timestamp":"2026-02-21 21:53:18.245"}
+{"level":"info","message":"🌍  Environment : development","service":"digital-girvi","timestamp":"2026-02-21 21:53:18.245"}
+{"level":"info","message":"🚀  Listening on: http://localhost:3000","service":"digital-girvi","timestamp":"2026-02-21 21:53:18.245"}
+{"level":"info","message":"🩺  Health check: http://localhost:3000/health","service":"digital-girvi","timestamp":"2026-02-21 21:53:18.246"}
+{"level":"info","message":"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━","service":"digital-girvi","timestamp":"2026-02-21 21:53:18.246"}
+{"level":"warn","message":"Client error No refresh token provided.","method":"POST","path":"/api/auth/refresh","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:53:21.626","userId":null}
+{"level":"warn","message":"Client error Invalid username or password.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:53:29.886","userId":null}
+{"level":"warn","message":"Client error Invalid username or password.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:53:40.171","userId":null}
+{"level":"warn","message":"Client error Invalid username or password.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:53:45.736","userId":null}
+{"level":"warn","message":"Client error Invalid username or password.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":401,"timestamp":"2026-02-21 21:53:47.279","userId":null}
+{"level":"warn","message":"Client error Too many failed attempts. Account locked for 30 minutes.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":423,"timestamp":"2026-02-21 21:53:47.592","userId":null}
+{"level":"warn","message":"Client error Account locked due to too many failed attempts. Try again after 10:23:47 PM.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":423,"timestamp":"2026-02-21 21:53:47.671","userId":null}
+{"level":"warn","message":"Client error Too many failed attempts. Account locked for 30 minutes.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":423,"timestamp":"2026-02-21 21:53:47.849","userId":null}
+{"level":"warn","message":"Client error Account locked due to too many failed attempts. Try again after 10:23:47 PM.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":423,"timestamp":"2026-02-21 21:53:47.954","userId":null}
+{"level":"warn","message":"Client error Account locked due to too many failed attempts. Try again after 10:23:47 PM.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":423,"timestamp":"2026-02-21 21:53:48.133","userId":null}
+{"level":"warn","message":"Client error Account locked due to too many failed attempts. Try again after 10:23:47 PM.","method":"POST","path":"/api/auth/login","service":"digital-girvi","status":423,"timestamp":"2026-02-21 21:53:50.928","userId":null}
+{"level":"info","message":"SIGINT received — shutting down gracefully...","service":"digital-girvi","timestamp":"2026-02-21 21:55:25.843"}
