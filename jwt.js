@@ -13,9 +13,9 @@
  */
 
 const jwt        = require('jsonwebtoken');
-const { hashToken, generateSecureToken } = require('./utils/encryption');
+const { hashToken, generateSecureToken } = require('./encryption');
 const db         = require('./db');
-const logger     = require('./utils/logger');
+const logger     = require('./logger');
 
 // ----------------------------------------------------------------
 // Secrets & expiry from environment

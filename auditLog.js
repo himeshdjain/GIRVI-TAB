@@ -11,8 +11,8 @@
  *   ACTIONS                 — Centralised action name constants
  */
 
-const db     = require('./utils/db');
-const logger = require('./utils/logger');
+const db     = require('./db');
+const logger = require('./logger');
 
 // ----------------------------------------------------------------
 // Action constants — use these everywhere to avoid typos

@@ -5,7 +5,7 @@
  */
 
 const router = require('express').Router();
-const ctrl   = require('../controllers/customerController');
+const ctrl   = require('../customerController');
 const { authenticate, managerPlus, adminOnly } = require('../auth');
 const { rules, validate } = require('../validate');
 

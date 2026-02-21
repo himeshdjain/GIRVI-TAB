@@ -6,7 +6,7 @@
  */
 
 const router  = require('express').Router();
-const ctrl    = require('../controllers/authController');
+const ctrl    = require('../authController');
 const { authenticate } = require('../auth');
 const { rules, validate } = require('../validate');
 const rateLimit = require('express-rate-limit');

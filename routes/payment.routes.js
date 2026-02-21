@@ -5,7 +5,7 @@
  */
 
 const router = require('express').Router();
-const ctrl   = require('../controllers/paymentController');
+const ctrl   = require('../paymentController');
 const { authenticate } = require('../auth');
 const { rules, validate } = require('../validate');
 
