@@ -6,9 +6,9 @@
  */
 
 const bcrypt = require('bcrypt');
-const db     = require('./db');
-const { log, ACTIONS, sanitise } = require('./auditLog');
-const { AppError, asyncHandler }  = require('./errorHandler');
+const db     = require('../db');
+const { log, ACTIONS, sanitise } = require('../auditLog');
+const { AppError, asyncHandler }  = require('../errorHandler');
 
 // ================================================================
 // SYSTEM SETTINGS
@@ -312,7 +312,7 @@ const adminResetPassword = asyncHandler(async (req, res) => {
   if (!rows.length) throw new AppError('User not found.', 404, 'NOT_FOUND');
 
   // Revoke all sessions for the user so they must re-login
-  const jwtUtils = require('./jwt');
+  const jwtUtils = require('../jwt');
   await jwtUtils.revokeAllUserTokens(id);
 
   await log({ userId: req.user.id, action: ACTIONS.PASSWORD_CHANGED,

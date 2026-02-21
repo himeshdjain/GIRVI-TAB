@@ -5,7 +5,7 @@
  */
 
 const router = require('express').Router();
-const ctrl   = require('../dashboardController');
+const ctrl   = require('../controllers/dashboardController');
 const { authenticate } = require('../auth');
 
 router.use(authenticate);

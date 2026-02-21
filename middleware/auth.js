@@ -5,9 +5,9 @@
  * Express middleware for JWT-based route protection and role-based access control.
  */
 
-const { verifyAccessToken, extractBearerToken } = require('./jwt');
-const db     = require('./db');
-const logger = require('./logger');
+const { verifyAccessToken, extractBearerToken } = require('../jwt');
+const db     = require('../db');
+const logger = require('../utils/logger');
 
 // ----------------------------------------------------------------
 // authenticate — verifies Bearer token, attaches req.user

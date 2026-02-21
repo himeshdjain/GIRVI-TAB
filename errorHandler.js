@@ -9,7 +9,7 @@
  * Sanitises stack traces — only exposed in development.
  */
 
-const logger = require('./logger');
+const logger = require('./utils/logger');
 
 // ----------------------------------------------------------------
 // Known PostgreSQL error codes → HTTP status mappings

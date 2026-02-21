@@ -7,12 +7,12 @@
  */
 
 const bcrypt     = require('bcrypt');
-const db         = require('./db');
-const jwtUtils   = require('./jwt');
-const encryption = require('./encryption');
-const { log, ACTIONS } = require('./auditLog');
-const { AppError, asyncHandler } = require('./errorHandler');
-const logger     = require('./logger');
+const db         = require('../db');
+const jwtUtils   = require('../jwt');
+const encryption = require('../utils/encryption');
+const { log, ACTIONS } = require('../auditLog');
+const { AppError, asyncHandler } = require('../errorHandler');
+const logger     = require('../utils/logger');
 
 const MAX_FAILED_ATTEMPTS = 5;
 const LOCK_DURATION_MINUTES = 30;

@@ -6,8 +6,8 @@
  */
 
 const router = require('express').Router();
-const ctrl   = require('../settingsController');
-const { authenticate, adminOnly, managerPlus } = require('../auth');
+const ctrl   = require('../controllers/settingsController');
+const { authenticate, adminOnly, managerPlus } = require('../middleware/auth');
 const { rules, validate } = require('../validate');
 
 router.use(authenticate);

@@ -6,9 +6,9 @@
  * All queries are read-only and optimised with single round-trips where possible.
  */
 
-const db   = require('./db');
-const calc = require('./loanCalculations');
-const { asyncHandler } = require('./errorHandler');
+const db   = require('../db');
+const calc = require('../utils/loanCalculations');
+const { asyncHandler } = require('../errorHandler');
 
 // ----------------------------------------------------------------
 // GET /api/dashboard/summary

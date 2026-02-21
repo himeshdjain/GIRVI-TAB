@@ -12,7 +12,7 @@
  */
 
 const db     = require('./db');
-const logger = require('./logger');
+const logger = require('./utils/logger');
 
 // ----------------------------------------------------------------
 // Action constants — use these everywhere to avoid typos

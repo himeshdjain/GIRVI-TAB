@@ -6,10 +6,10 @@
  * All financial calculations delegated to loanCalculations.js.
  */
 
-const db      = require('./db');
-const calc    = require('./loanCalculations');
-const { log, ACTIONS, sanitise } = require('./auditLog');
-const { AppError, asyncHandler }  = require('./errorHandler');
+const db      = require('../db');
+const calc    = require('../utils/loanCalculations');
+const { log, ACTIONS, sanitise } = require('../auditLog');
+const { AppError, asyncHandler }  = require('../errorHandler');
 
 // ----------------------------------------------------------------
 // Helper: generate sequential loan number
